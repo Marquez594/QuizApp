@@ -1,5 +1,3 @@
-import type { ReactFormState } from "react-dom/client";
-
 type menuProp = {
   setCurrentNumber: React.Dispatch<React.SetStateAction<number>>;
   questionState: string[];

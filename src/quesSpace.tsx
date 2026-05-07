@@ -25,7 +25,7 @@ function Question({
   const [currentPlace, setCurrentPlace] = useState<number | null | undefined>(
     null,
   );
-
+  currentPlace
   const updateQuestion = (e: React.MouseEvent<HTMLButtonElement>) => {
     const element = e.currentTarget.name;
     if (element == "next" && currentNumber != 13) {
